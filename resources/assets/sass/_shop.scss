@@ -1,0 +1,100 @@
+.shop-container {
+  margin-top: 5%;
+}
+
+#statusText {
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: $brand-primary;
+}
+
+.product-container {
+  margin: 1% 5%;
+
+  .product-title {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  .overlay-container {
+    position: relative;
+
+    .main-product {
+      position: relative;
+      width: 30%;
+      top: 0;
+      left: 0;
+      padding: 20px;
+    }
+
+    .overlay-img-front {
+      position: absolute;
+      top: 28%;
+      left: 36%;
+      width: 4%;
+    }
+
+    .overlay-img-back {
+      position: absolute;
+      top: 19%;
+      left: 58.5%;
+      width: 13%;
+    }
+  }
+}
+
+.product-table {
+  width: 50%;
+  margin: 0% 26%;
+}
+
+.cost {
+  font-weight: 800;
+  & > p {
+    font-size: 20px;
+  }
+}
+
+.checkout-container {
+  width: 50%;
+  margin: 0% 26%;
+  border: 2px solid #bfbfbf54;
+
+  button {
+    margin: 1%;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-product {
+    width: 100% !important;
+  }
+
+  .overlay-img-front {
+    top: 14% !important;
+    left: 50% !important;
+    width: 17% !important;
+  }
+
+  .overlay-img-back {
+    top: 59% !important;
+    left: 27.5% !important;
+    width: 43% !important;
+  }
+
+  .shop-container {
+    margin-top: 15%;
+  }
+
+  .product-table {
+    width: 100%;
+    margin: 0% 0%;
+  }
+
+  td div label {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,41 @@
+.gallery-container {
+  margin: 8% 2%;
+}
+
+.btn-download.gallery {
+  background-color: $brand-primary;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFF;
+  width: 100%;
+  margin-top: 2%;
+  font-size: 20px;
+
+  &:hover {
+    color: darken(#FFF, 10);
+  }
+}
+
+.btn-shop.gallery {
+  border: 3px solid $brand-primary;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: $brand-primary;
+  width: 100%;
+  margin-top: 1%;
+  font-size: 20px;
+
+  &:hover {
+    color: darken($brand-primary, 10);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-download, .btn-shop {
+    width: 10%;
+  }
+
+  .gallery-container {
+    margin-top: 15%;
+  }
+}

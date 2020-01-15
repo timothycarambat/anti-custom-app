@@ -1,0 +1,167 @@
+
+@font-face {
+  font-family: 'Friz';
+  src: url('/fonts/friz.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+.fill-container {
+    height: 100vh;
+}
+
+.template-container {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.template {
+  width: 50%;
+}
+
+.input-container {
+  position: absolute;
+  z-index: 2;
+  top: 37%;
+  left: 40%;
+
+  .form-control {
+    color: #000;
+    background-color: #f5f8fa;
+  }
+
+  .social-input {
+    font-family: 'Friz', 'Times New Roman', sans-serif;
+    height: 120px;
+    margin-bottom: 10%;
+    font-size: 60px;
+    width: 65%;
+    text-transform: uppercase;
+    text-align: center
+  }
+}
+
+.color-picker-container{
+  margin-top: -5%;
+
+  & > label {
+    color: #000;
+    font-size: 27px;
+    font-weight: 800;
+    margin-left: -5%;
+    margin-bottom: -1%;
+  }
+
+  & > p {
+    margin: 0 0;
+    margin-left: -7%;
+  }
+
+  .color-picker {
+    width: 24%;
+    margin-left: 40%;
+    height: 50px;
+    padding: 0px;
+    border-color: rgba(0,0,0,0);
+  }
+}
+
+.btn-generate {
+  background-color: $brand-primary;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFF;
+  width: 21%;
+  margin-left: 4%;
+  font-size: 20px;
+
+  &:hover {
+    color: darken(#FFF, 10);
+  }
+}
+
+.main-header {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 8%;
+  color: white;
+  background: $body-bg;
+  line-height: 6rem;
+  transform: translateY(0);
+  transform: translate3d(0,0,0);
+  transition: .25s transform;
+  backface-visibility: hidden;
+}
+
+.heads-up {
+  transform: translateY(-6rem);
+  transform: translate3d(0,-6rem,0);
+}
+
+.main-header img {
+  width: 7%;
+  margin-left: 7%;
+}
+
+.main-header h1 {
+  float: left;
+  font-size: 1.4rem;
+  margin: 0 0 0 2rem;
+  text-transform: uppercase;
+}
+
+.main-header nav {
+  float: right;
+  font-size: 1.4rem;
+}
+
+.main-header nav ul {
+  margin-top: 7%;
+  margin-left: -15%;
+}
+
+.main-header nav li {
+  color: $brand-primary;
+  display: inline-block;
+  padding: 0 2rem;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .template {
+    width: 100%;
+  }
+
+  .input-container {
+    top: 20.5%;
+    left: 25%;
+
+    .social-input {
+      height: 56px;
+      font-size: 35px;
+      width: 76%;
+    }
+  }
+
+  .color-picker-container{
+    .color-picker {
+      width: 56%;
+      margin-left: 26%;
+      height: 50px;
+      padding: 0px;
+      border-color: rgba(0, 0, 0, 0);
+    }
+  }
+
+  .btn-generate {
+    width: 55%;
+    margin-left: 8%;
+  }
+
+  .main-header nav ul {
+    margin-top: -15%;
+    margin-left: 0%;
+  }
+}

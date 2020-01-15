@@ -1,0 +1,42 @@
+.result-container {
+  margin-top: 8%;
+
+}
+
+.btn-download {
+  background-color: $brand-primary;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #FFF;
+  width: 20%;
+  margin-top: 2%;
+  font-size: 20px;
+
+  &:hover {
+    color: darken(#FFF, 10);
+  }
+}
+
+.btn-shop {
+  border: 3px solid $brand-primary;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: $brand-primary;
+  width: 20%;
+  margin-top: 1%;
+  font-size: 20px;
+
+  &:hover {
+    color: darken($brand-primary, 10);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .btn-download, .btn-shop {
+    width: unset;
+  }
+
+  .result-container {
+    margin-top: 15%;
+  }
+}
