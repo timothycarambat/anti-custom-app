@@ -16,8 +16,8 @@ function showAvailableMerch() {
 
     Object.keys(prodObj.views).map((view) => {
       productText += `
-        <img class='main-product' data-${product}-img src='${window.products[product]['views'][view]}' />
-        <img class='overlay-img-${view}' src='${window.logoLink}' />
+        <img alt='Image of Generic ${product}' class='main-product' data-${product}-img src='${window.products[product]['views'][view]}' />
+        <img alt='Your custom ASSC logo' class='overlay-img-${view}' src='${window.logoLink}' />
       `
     })
 

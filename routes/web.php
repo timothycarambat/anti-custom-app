@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'PageController@home');
+Route::get('/about', 'PageController@about');
 Route::get('/gallery', 'PageController@gallery');
 Route::get('/privacy', 'PageController@privacy');
 Route::get('/result/{filename}', 'PageController@result');

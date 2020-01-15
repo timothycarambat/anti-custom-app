@@ -78,6 +78,12 @@ class PageController extends Controller {
       ]);
     }
 
+    public static function about(Request $request) {
+      return view('about')->with([
+        'page' => 'about',
+      ]);
+    }
+
     public static function checkout(Request $request) {
       $cart = $request->cart;
       $checkout_items = [];

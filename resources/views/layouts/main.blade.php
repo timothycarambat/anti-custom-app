@@ -3,13 +3,20 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Create your own custom Anti Social Social Club logo with our logo generation tool. Download the logo for Free and get merch your custom logo on it!">
+    <meta name="keywords" content="antisocialsocialclub, anti social, anti social social club, streetwear, hypebeast, ASSC, logo generator, street style, logo, generator, custom logo, custom, custom logo generator, custom anti social social club logo, custom streetwear logo, custom ASSC hoodie, custom ASSC shirt, custom ASSC logo, Anti Club, Anti Club logo generator">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="30 days">
+    <meta name="author" content="Timothy Carambat">
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="icon" type="image/png" href="/imgs/example.png">
     <title>{{ config('app.name', 'Laravel') }}</title>
-    {{--@include('components.gascript')--}}
+    @include('gascript')
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>

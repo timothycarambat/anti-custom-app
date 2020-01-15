@@ -9,7 +9,7 @@
         <div class="row">
           @foreach($logos as $data)
             <div class="col-md-3 col-xs-12">
-              <img class='col-xs-12 show-logo' src="{{$data['link']}}" />
+              <img alt='User generated custom ASSC logo' class='col-xs-12 show-logo' src="{{$data['link']}}" />
               <a href="{{$data['link']}}" target="_blank" rel="noreferrer nofollow" class="btn btn-download gallery">
                 <i class='fa fa-cloud-download'></i>
                 Download Logo

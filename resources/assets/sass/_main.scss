@@ -129,6 +129,15 @@
   font-size: 20px;
 }
 
+@media only screen
+    and (device-width : 375px)
+    and (device-height : 812px)
+    and (-webkit-device-pixel-ratio : 3) {
+      .input-container {
+        top: 16.5% !important;
+      }
+ }
+
 @media only screen and (max-width: 600px) {
   .template {
     width: 100%;
@@ -136,12 +145,12 @@
 
   .input-container {
     top: 20.5%;
-    left: 25%;
+    left: 32%;
 
     .social-input {
       height: 56px;
-      font-size: 35px;
-      width: 76%;
+      font-size: 100%;
+      width: 100%;
     }
   }
 
@@ -161,7 +170,12 @@
   }
 
   .main-header nav ul {
-    margin-top: -15%;
-    margin-left: 0%;
+    margin-top: -18%;
+    margin-left: -5%;
+  }
+
+  .main-header nav li {
+    padding: 0 5px;
+    font-size: 19px;
   }
 }

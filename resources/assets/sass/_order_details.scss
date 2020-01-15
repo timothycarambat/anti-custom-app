@@ -9,3 +9,9 @@
   font-weight: 800;
   font-size: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+  .order-details {
+    margin: 2%;
+  }
+}

@@ -1,0 +1,19 @@
+.about {
+  margin: 10% 5% 0% 5%;
+
+  h1, h2, h3, h4 {
+    color: $brand-primary;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    margin: 20% 0% 0% 2%;
+  }
+}

@@ -1,2 +1,9 @@
-User-agent: *
+User-Agent: *
 Disallow:
+Allow: /
+Allow: /about
+Allow: /gallery
+Disallow: /privacy
+Disallow: /checkout
+Disallow: /result
+Disallow: /shop

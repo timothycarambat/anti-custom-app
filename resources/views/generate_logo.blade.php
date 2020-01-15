@@ -30,7 +30,7 @@
         <p class="alert alert-danger hidden">This is taking longer than usual - <a href='/'>you should just try again.</a></p>
         <br>
         <h4>Example Result (PNG w/ transparent background)</h4>
-        <img src="imgs/example.png" class="logo" alt="EXAMPLE custom ASSC Logo!">
+        <img alt='Anti Something Something Logo Example Image made with this generator' src="imgs/example.png" class="logo" alt="EXAMPLE custom ASSC Logo!">
       </div>
 
 
