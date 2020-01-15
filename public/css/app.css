@@ -11901,8 +11901,8 @@ body {
 .product-container .overlay-container .overlay-img-back {
   position: absolute;
   top: 19%;
-  left: 58.5%;
-  width: 13%;
+  left: 59.5%;
+  width: 11%;
 }
 
 .product-table {
@@ -11943,8 +11943,8 @@ body {
 
   .overlay-img-back {
     top: 59% !important;
-    left: 27.5% !important;
-    width: 43% !important;
+    left: 30.5% !important;
+    width: 40% !important;
   }
 
   .shop-container {
@@ -11956,8 +11956,24 @@ body {
     margin: 0% 0%;
   }
 
+  .product-table td > div > input,
+  .product-table td > div select {
+    padding: 0px 0px;
+    font-size: 12px;
+  }
+
   td div label {
     font-size: 10px;
+  }
+
+  .checkout-container {
+    width: 100%;
+    margin: 0% 0%;
+  }
+
+  .checkout-container button {
+    margin: 0%;
+    width: 100%;
   }
 }
 
@@ -11984,6 +12000,12 @@ body {
   color: #ff00af;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .privacy {
+    margin: 20% 0% 0% 2%;
+  }
 }
 
 .gallery-container {

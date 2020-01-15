@@ -2,9 +2,9 @@
 
 @section('content')
 <div class='privacy'>
-<h2>Industrial Object Terms of Service</h2>
+<h2>Terms of Service & Privacy</h2>
 <h3>1. Terms</h3>
-<p>By accessing the website at <a href="https://antisomethingsomethingclub.com">https://antisomethingsomethingclub.com</a>,
+<p>By accessing the website at <a href="{{$_ENV['APP_URL']}}">{{$_ENV['APP_URL']}}</a>,
   you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for
   compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site.
   The materials contained in this website are protected by applicable parody law.</p>

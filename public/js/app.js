@@ -32488,7 +32488,7 @@ $(function () {
 function showAvailableMerch() {
   Object.keys(window.products).map(function (product) {
     var prodObj = window.products[product];
-    var productText = '\n      <div class=\'product-container\' data-product=\'' + product + '\'>\n        <h4 class=\'product-title\'>' + prodObj.name + ' ($' + prodObj.cost + ')</h4>\n        <p> Please keep in mind these are simple mockups. The delivered product will be more accurate in style to the traditional print.\n        <br>\n            All Products are <b>FREE SHIPPING</b>.\n        <br>\n        <a href=\'#\' data-toggle="modal" data-target="#' + product + '">Product Info</a>\n        </p>\n        <div class=\'overlay-container\'>\n    ';
+    var productText = '\n      <div class=\'product-container\' data-product=\'' + product + '\'>\n        <h4 class=\'product-title\'>' + prodObj.name + ' ($' + prodObj.cost + ')</h4>\n        <p> Please keep in mind these are simple mockups. Sometimes the logo is too large and it may appear \'off\' the shirt in the mockup.\n         The delivered product will be more accurate in style to the traditional print.\n        <br>\n            All Products are <b>FREE SHIPPING</b>.\n        <br>\n        <a href=\'#\' data-toggle="modal" data-target="#' + product + '">Product Info</a>\n        </p>\n        <div class=\'overlay-container\'>\n    ';
 
     Object.keys(prodObj.views).map(function (view) {
       productText += '\n        <img class=\'main-product\' data-' + product + '-img src=\'' + window.products[product]['views'][view] + '\' />\n        <img class=\'overlay-img-' + view + '\' src=\'' + window.logoLink + '\' />\n      ';

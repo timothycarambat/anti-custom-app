@@ -4,7 +4,8 @@ function showAvailableMerch() {
     var productText = `
       <div class='product-container' data-product='${product}'>
         <h4 class='product-title'>${prodObj.name} ($${prodObj.cost})</h4>
-        <p> Please keep in mind these are simple mockups. The delivered product will be more accurate in style to the traditional print.
+        <p> Please keep in mind these are simple mockups. Sometimes the logo is too large and it may appear 'off' the shirt in the mockup.
+         The delivered product will be more accurate in style to the traditional print.
         <br>
             All Products are <b>FREE SHIPPING</b>.
         <br>
