@@ -44,7 +44,6 @@ class Utils extends Model {
       'payment_method_types' => ['card'],
       'line_items' => $checkout_items,
       'billing_address_collection' => 'required',
-      'shipping_address_collection' => 'required',
       'success_url' => $_ENV['APP_URL'].'/checkout/success',
       'cancel_url' => $_ENV['APP_URL'].'/checkout/cancel',
     ]);

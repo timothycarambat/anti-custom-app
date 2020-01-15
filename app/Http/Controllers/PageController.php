@@ -93,6 +93,7 @@ class PageController extends Controller {
           'name' => ucwords($item),
           'description' => "Name: {$details['name']} \nColor: {$details['color']} \nSize: {$details['size']}",
           'amount' => Utils::costPerItem($item, true),
+          'images' => [$request->logo],
           'currency' => 'usd',
           'quantity' => $qty,
         ];
