@@ -5,6 +5,7 @@
     <div class="template-container">
       <div class="result-container">
         <h1 id='statusText'>Here is your custom logo!</h1>
+        <p>Is the result whack? This isnt a perfect science. <a href='/'>Try it again.</a></p>
         <img src="{{$link}}" class="logo" alt="EXAMPLE custom ASSC Logo!">
       </div>
       <a href="{{$link}}" target="_blank" rel="noreferrer nofollow" class="btn btn-download">
