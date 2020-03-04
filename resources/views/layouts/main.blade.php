@@ -17,6 +17,7 @@
     <link rel="icon" type="image/png" href="/imgs/example.png">
     <title>{{ config('app.name', 'Laravel') }}</title>
     @include('gascript')
+    @include('gaads')
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
