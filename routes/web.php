@@ -21,5 +21,7 @@ Route::get('/checkout/success', 'PageController@checkout_success');
 Route::get('/checkout/cancel', 'PageController@checkout_cancel');
 
 Route::post('/generate_logo', 'PageController@generate_logo');
+Route::get('/generate_logo', 'PageController@generate_logo');
+
 Route::post('/check_for_img', 'PageController@check_for_img');
 Route::post('/checkout', 'PageController@checkout');

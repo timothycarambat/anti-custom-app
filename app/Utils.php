@@ -25,7 +25,7 @@ class Utils extends Model {
 
   public static function getLogos() {
     $links = [];
-    $logos = Storage::disk('s3')->files('results');
+    $logos = Storage::disk('s3')->files('gallery');
 
     foreach($logos as $logo) {
       $filename = basename($logo, '.png');
