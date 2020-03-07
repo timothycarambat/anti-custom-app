@@ -30,6 +30,7 @@ function showAvailableMerch() {
 }
 
 function appendAddItemButton() {
+  var adSet = 0
   $('.product-container').map((idx, container) => {
     let prodType = $(container).data('product')
     let product = window.products[prodType]
@@ -82,7 +83,22 @@ function appendAddItemButton() {
           </tr>
         </tbody>
       </table>
+      ${!adSet ?
+        `<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Horizontal -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-2466331850146937"
+             data-ad-slot="3195141144"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>`
+        : ''
+       }
     `)
+    adSet = 1
   })
 }
 
