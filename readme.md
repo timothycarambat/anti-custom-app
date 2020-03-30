@@ -22,3 +22,8 @@ npm install
 npm run watch
 php artisan serve
 ```
+
+### The Result
+I am so sorry for what I have done to programming.
+![](https://github.com/timothycarambat/anti-custom-app/blob/master/public/imgs/assc.gif)
+
